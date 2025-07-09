@@ -33,3 +33,13 @@ name="ანდრია"
 age=14
 
 print("მე მქვია " + name + " და მე ვარ " + str(age) + " წლის")
+
+
+name = "andria"
+age = 14
+
+print( name, "aris", age, "wlis" )
+
+
+
+
