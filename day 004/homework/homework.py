@@ -94,19 +94,15 @@ mom_age = 44
 dad_age = 50
 sister_age = 21
 
-print("მე ნაკლები ასაკის ვარ მამაზე?", my_age < dad_age)  # True
+print("მე ნაკლები ასაკის ვარ მამაზე?", my_age < dad_age)  
 
-print("დედა მეტია დასზე?", mom_age > sister_age)  # True
+print("დედა მეტია დასზე?", mom_age > sister_age)  
 
-print("დედა >= მამა?", mom_age >= dad_age)  # False
+print("დედა >= მამა?", mom_age >= dad_age)  
 
-print("და <= მე?", sister_age <= my_age)  # True
+print("და <= მე?", sister_age <= my_age)  
 
-print("მე და და ტოლი ასაკის ვართ?", my_age == sister_age)  # False
+print("მე და და ტოლი ასაკის ვართ?", my_age == sister_age)  
 
-print("მამა != დედა?", dad_age != mom_age)  # True
-
-
-
-
+print("მამა != დედა?", dad_age != mom_age)   
 
