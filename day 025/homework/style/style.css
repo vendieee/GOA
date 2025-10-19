@@ -1,0 +1,18 @@
+/* color classsessesese*/
+.blue-text {
+    color: blue;
+}
+
+.red-text {
+    color: red;
+}
+
+.orange-table {
+    border: 2px solid orangered; /* table-ის საზღვარი */
+}
+
+.orange-table th, .orange-table td {
+    border: 3px solid orangered; /* ცალკეული უჯრების საზღვარი */
+    padding: 5px; /* შიდა მანძილი */
+    text-align: center; /* ტექსტის ცენტრში განთავსება */
+}

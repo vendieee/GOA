@@ -1,0 +1,41 @@
+/* color classesese*/
+.blue-text {
+    color: blue;
+}
+.orange-text {
+    color: orangered;
+
+}
+.red-text {
+    color: red;
+}
+
+.orange-table {
+    border: 2px solid orangered; /* table-ის საზღვარი */
+}
+
+.orange-table th, .orange-table td {
+    border: 3px solid orangered; /* ცალკეული უჯრების საზღვარი */
+    padding: 5px; /* შიდა მანძილი */
+    text-align: center; /* ტექსტის ცენტრში განთავსება */
+}
+
+.western-table {
+    border: 2px solid rgb(204, 145, 17); /* table-ის საზღვარი */
+}
+
+.western-table th, .western-table td {
+    border: 3px solid rgb(204, 145, 17); /* ცალკეული უჯრების საზღვარი */
+    padding: 5px; /* შიდა მანძილი */
+    text-align: center; /* ტექსტის ცენტრში განთავსება */
+}
+
+.blue-table {
+    border: 2px solid blue; /* table-ის საზღვარი */
+}
+
+.blue-table th, .blue-table td {
+    border: 4px solid blue; /* ცალკეული უჯრების საზღვარი */
+    padding: 5px; /* შიდა მანძილი */
+    text-align: center; /* ტექსტის ცენტრში განთავსება */
+}
