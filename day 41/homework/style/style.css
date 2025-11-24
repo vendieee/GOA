@@ -1,0 +1,56 @@
+/* 
+display: flex — ეს არის CSS-ის განლაგების სისტემა,
+რომელიც ელემენტებს ალაგებს ერთ ხაზზე (ჰორიზონტალურად)
+ან სვეტად (ვერტიკალურად). 
+იგივე "მშობელი" აკონტროლებს, როგორ დადგებიან "შვილები".
+*/
+
+
+/*
+display: flex ნიშნავს, რომ მშობელი ელემენტი ალაგებს შვილ ელემენტებს
+ერთ ხაზზე (ჰორიზონტალურად). flex აკეთებს მიჭრას, განლაგებას და ინტერვალს მარტივად.
+*/
+
+
+
+
+.box {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.red { background: red; }
+.blue { background: blue; }
+.green { background: green; }
+
+
+.three-boxes {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+
+.container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.small {
+    width: 60px;
+    height: 60px;
+    background: purple;
+}
+
+
+.four-blocks {
+    display: flex;
+    gap: 10px;
+}
+
+.block {
+    width: 80px;
+    height: 80px;
+    background: orange;
+}
