@@ -1,0 +1,27 @@
+.container {
+display: flex;
+gap: 20px;
+justify-content: left;
+}
+
+
+.box1 {
+    width: 100px;
+    height: 80px;
+    background: black
+}
+.box2 {
+    width: 70px;
+    height: 100px;
+    background: black
+}
+.box3 {
+    width: 70px;
+    height: 80px;
+    background: black
+}
+.box4 {
+    width: 70px;
+    height: 70px;
+    background: black
+}
