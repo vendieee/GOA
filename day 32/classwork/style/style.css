@@ -1,0 +1,8 @@
+.background {
+    height: 300px;
+    background: linear-gradient(to bottom right, blue, white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
