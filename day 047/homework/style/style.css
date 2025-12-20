@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    justify-content:space-between;
+    margin-top: 50px;
+}
+
+
+
+
+.box1 {
+    width: 100px;
+    height: 100px;
+    background: rgb(247, 148, 31); 
+}
+
