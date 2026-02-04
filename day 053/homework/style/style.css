@@ -1,0 +1,60 @@
+body {
+    margin: 30px;
+    background: white;
+}
+
+/* general row */
+.row {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+/* column inside a row */
+.column {
+    display: flex;
+    gap: 20px;
+}
+
+/* base box style */
+.box {
+    background: #9acd32; /* green */
+    border: 6px solid black;
+    border-radius: 6px;
+}
+
+/* sizes */
+.small {
+    width: 120px;
+    height: 160px;
+}
+
+.long {
+    width: 700px;
+    height: 160px;
+}
+
+.wide {
+    width: 700px;
+    height: 180px;
+}
+
+.tall {
+    width: 120px;
+    height: 180px;
+}
+
+.medium {
+    width: 220px;
+    height: 160px;
+}
+
+.extra-long {
+    width: 600px;
+    height: 160px;
+}
+
+.large {
+    width: 260px;
+    height: 180px;
+}

@@ -1,0 +1,55 @@
+body {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.boxes {
+  width: 900px;
+  display: flex;
+  gap: 20px;
+}
+
+.left {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.bottom {
+  display: flex;
+  gap: 20px;
+}
+
+.box1 {
+  height: 150px;
+  background: cyan;
+  padding: 10px;
+}
+
+.box3 {
+  height: 150px;
+  background: yellow;
+  padding: 10px;
+}
+
+.box4 {
+  width: 200px;
+  height: 120px;
+  background: #00ff66;
+  padding: 10px;
+}
+
+.box5 {
+  width: 380px;
+  height: 120px;
+  background: orange;
+  padding: 10px;
+}
+
+.box2 {
+  width: 280px;
+  background: magenta;
+  padding: 10px;
+}

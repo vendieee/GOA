@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.card {
+    max-width: 600px;
+}
+
+.container {
+    display: flex;
+    justify-content:space-between;
+    margin-top: 50px;
+}
+
+
+
+
+.item1 {
+    width: 100px;
+    height: 100px;
+    align-items:start
+}
+
+.item2 {
+    width: 100px;
+    height: 100px;
+    align-items:end
+}
+
+.items3 {
+    width: 100px;
+    height: 100px;
+    align-items:flex-start
+}
+.items4 {
+    width: 100px;
+    height: 100px;
+    align-items:flex-end
+}
