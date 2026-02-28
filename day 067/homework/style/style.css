@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #e4e1e1;
+}
+
+
+.hero {
+    height: 90vh;
+    background: linear-gradient(#e6d5c3, #c9b29c);
+    display: grid;
+    grid-template-rows: auto 1fr;
+    padding: 40px 80px;
+    color: white;
+}
+
+.nav {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    align-items: center;
+}
+
+.menu {
+    justify-self: end;
+}
+
+.menu a {
+    margin-left: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+.hero-content {
+    align-self: center;
+    max-width: 600px;
+}
+
+.hero-content h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.hero-content button {
+    padding: 12px 25px;
+    border: none;
+    background: #d6d3d3;
+    color: #333;
+    border-radius: 25px;
+}
+
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 60px 80px;
+    background: white;
+}
+
+.feature {
+    height: 100px;
+    background: #e6e3e3;
+    border-radius: 10px;
+}
+
+/* BEST SELLER */
+
+.best {
+    padding: 60px 80px;
+}
+
+.best h2 {
+    margin-bottom: 30px;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.card {
+    height: 250px;
+    background: rgb(255, 255, 255);
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+
+
+.reference {
+    padding: 60px 80px;
+}
+
+.ref-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 250px;
+    gap: 30px;
+}
+
+.ref {
+    background: #ccc9c9;
+    border-radius: 20px;
+}
+
+.big {
+    grid-row: span 2;
+}
+
+
+.cta {
+    background: #1e1e1e;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.cta button {
+    margin-top: 20px;
+    padding: 12px 30px;
+    border-radius: 25px;
+    border: none;
+    background: #d4a373;
+    color: white;
+}
+
+
+.footer {
+    background: white;
+    padding: 40px 80px;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.footer-grid div {
+    height: 60px;
+    background: #e6e3e3;
+    border-radius: 8px;
+}

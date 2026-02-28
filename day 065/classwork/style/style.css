@@ -1,0 +1,30 @@
+body {
+  background: #222121;
+  padding: 20px;
+}
+
+.btn {
+  padding: 15px 40px;
+  font-size: 18px;
+  border: none;
+  border-radius: 30px;
+  background: linear-gradient(135deg, #6a5af9, #00c6ff);
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+
+.btn:active {
+  transform: scale(0.95);
+}
+
+
+.btn:focus {
+  background-color: solid black ;
+}
