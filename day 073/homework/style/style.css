@@ -1,0 +1,132 @@
+/*first*/
+
+.scene{
+    position: relative;
+    width: 800px;
+    height: 400px;
+}
+
+.mountain{
+    width:100%;
+}
+
+.turtle{
+    position:absolute;
+    width:120px;
+    top:150px;
+}
+
+.fly{
+    animation: fly 4s linear infinite;
+}
+
+@keyframes fly{
+    0%{ left:-150px; }
+    100%{ left:800px; }
+}
+
+/* second */
+
+.everest{
+    position:relative;
+    width:600px;
+}
+
+.fish{
+    position:absolute;
+    width:100px;
+    bottom:0;
+}
+
+.climb{
+    animation: climb 5s linear infinite;
+}
+
+@keyframes climb{
+    0%{
+        left:0;
+        bottom:0;
+    }
+    100%{
+        left:400px;
+        bottom:300px;
+    }
+}
+
+/* third */
+
+
+.road{
+    position:relative;
+    width:800px;
+    height:200px;
+    background:gray;
+}
+
+.car{
+    position:absolute;
+    width:150px;
+    bottom:20px;
+}
+
+.drive{
+    animation: drive 3s linear infinite;
+}
+
+@keyframes drive{
+    0%{ left:-150px; }
+    100%{ left:800px; }
+}
+
+/* fourth */
+
+.ocean{
+    position:relative;
+    width:700px;
+    height:300px;
+    background:lightblue;
+}
+
+.shark{
+    position:absolute;
+    width:150px;
+    top:100px;
+}
+
+.talk{
+    animation: swim 4s linear infinite;
+}
+
+@keyframes swim{
+    0%{ left:-200px; }
+    100%{ left:700px; }
+}
+
+/* fifth */
+
+.field{
+    position:relative;
+    width:800px;
+    height:400px;
+    background:lightgreen;
+}
+
+.horse{
+    position:absolute;
+    top:100px;
+}
+
+.run{
+    animation: run 4s linear infinite;
+}
+
+@keyframes run{
+    0%{
+        left:0;
+        transform: scale(0.3);
+    }
+    100%{
+        left:500px;
+        transform: scale(1.2);
+    }
+}

@@ -1,0 +1,46 @@
+body{
+    font-family: Arial;
+    background:#f2f2f2;
+    margin:40px;
+}
+
+.services{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+.services-container{
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap:20px;
+}
+
+.card{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    border:2px solid black;
+    height:150px;
+}
+
+.green{
+    background:#b7ff5a;
+}
+
+.dark{
+    background:#111;
+    color:white;
+}
+
+button{
+    align-self:flex-start;
+    padding:8px 14px;
+    border:none;
+    background:black;
+    color:white;
+    border-radius:6px;
+}
